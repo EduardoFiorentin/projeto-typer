@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body {
+    font-family: Arial,'icones', Helvetica, sans-serif;
+    background-color: #00142ea3;
+    
+    margin: auto;
+}
+
+.cabecalho {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #15191c;
+    padding: 10px 0;
+}
+
+.frase {
+    text-align: center;
+    margin: 30px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem
+}
+.num-palavras {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding-bottom: 15px;
+}
+
+.text-area {
+    display: block;
+    background-color: #1d232a58;
+    color: white;
+    margin: auto;
+    font-size: 1.5rem;
+    border-width: 5px;
+    border-radius: 10px;
+    height: 300px;
+    width: 80%;
+    max-width: 600px;
+}
+.text-area-vermelho {
+    background-color: rgba(139, 0, 0, 0.3);
+    border-color: darkred;
+}
+.text-area-verde {
+    background-color: rgba(0, 100, 0, 0.3);
+    border-color: rgb(0, 43, 0);
+}
+.botoes {
+    margin: 15px 0;
+    text-align: center;
+}
+.botoes a {
+    margin: 0 10px;
+}
+
+.num-palavras-digitadas, .num-palavras-corretas {
+    padding: 10px 0;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.placar {
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 30px auto;
+    background-color: #15191c;
+    border-radius: 10px;
+    color: white;
+}
+.placar__cabecalho > td{
+    padding: 10px 0;
+    width: 33%;
+}
+
+.placar tr td {
+    padding-bottom: 20px;
+    text-align: center;
+}

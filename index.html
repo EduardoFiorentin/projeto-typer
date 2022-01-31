@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typer</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/materialize.css">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h2>Typer</h2>
+    </header>
+    <main class="corpo">
+        <p class="frase">Esta frase tem cinco letras</p>
+        <p class="num-palavras"><span class="contador-palavras">0</span> Palavras</p>
+        <p class="num-palavras num-segundos"><span class="contador-segundos">10</span> Segundos</p>
+
+        <textarea name="" id="" cols="40" rows="10" class="text-area text-area-verde" ></textarea>
+
+        <div class="botoes">
+            <a class="btn-floating btn-large waves-light red botao-historico">
+                <i class="material-icons">list</i>
+            </a>
+
+            <a class="btn-floating btn-large waves-light blue botao-troca-frase">
+                <i class="material-icons">compare_arrows</i>
+            </a>
+
+            <a class="btn-floating btn-large waves-light green botao-reset">
+                <i class="material-icons">rotate_right</i>
+            </a>
+        </div>
+
+        <p class="num-palavras-digitadas"><span class="num-palavras-digitadas-contador">1</span> palavras digitadas</p>
+        <p class="num-palavras-corretas"><span class="num-palavras-corretas-contador">X</span> palavras corretas</p>
+            <div class="placar">
+                <table class="placar__table">
+                    <thead>
+                        <tr class="placar__cabecalho">
+                            <td>Palavras</td>
+                            <td>Tempo (s)</td>
+                            <td>PPS</td>
+                        </tr>
+                    </thead>
+                    <tbody class="table__tbody">
+                        
+                    </tbody>
+                </table>
+            </div>
+
+    </main>
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/frase.js"></script>
+    <script src="assets/js/verificacao.js"></script>
+    <script src="assets/js/historico.js"></script>
+    <!-- <script src="assets/js/verificador_ortografico.js"></script> -->
+</body>
+</html>
